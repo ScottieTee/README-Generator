@@ -56,7 +56,7 @@ function generateReadMe(answers){
         # ${answers.title}
 
         ## table of contents
-        - [Description](#Description)
+        - [Description] #Description
         - [Installation](#Installation)
         - [Usage](#Usage)
         - [License](#License)
@@ -76,6 +76,9 @@ function generateReadMe(answers){
 
         ## Contribution
         ${answers.contribution}
+
+        ## Questions?
+        ${answers.username}
     `
 }
 function createFile(){
@@ -84,5 +87,6 @@ function createFile(){
 prompt();
 
 
-RESEARCH SHEILD.IO
-ASK FOR THEIR USERNAME, GIHUB and their EMAIL
+//CREATE A FUNCTION THAT LINKS THE USERNAME TO THE GITHUB IN THE README
+//IN THE QUESTION SECTION I HAVE TO GIVE INFO ON HOW TO FURTHER REACH ME
+//
