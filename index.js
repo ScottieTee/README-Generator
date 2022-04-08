@@ -33,6 +33,16 @@ function prompt(){
             type: "input",
             name: "contribution",
             message: "Who are the contributors invovled in this project?"
+        },
+        {
+            type: "input", 
+            name: "username", 
+            message: "What is your GitHub username?"
+        },
+        {
+            type: "input", 
+            name: "email", 
+            message: "What is your email?"
         }
     ])
     .then(data=>{
