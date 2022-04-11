@@ -51,35 +51,47 @@ function prompt(){
     })
 }
 
+function renderLicenseBadge(license){
+    const badges = {
+     MIT: '![License: MIT](https://img.sheild.io/badge/License-MIT-red.svg)',
+     GPL: '![License: MIT](https://img.shields.io/badge/License-GPLv3-blue.svg)',
+     APACHE: '![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
+        }
+        return badges[license]
+} 
 function generateReadMe(answers){
     return `
-        # ${answers.title}
+# ${answers.title}
 
-        ## table of contents
-        - [Description] #Description
-        - [Installation](#Installation)
-        - [Usage](#Usage)
-        - [License](#License)
-        - [Contribution](#Contribution)
+${this.renderLicenseBadge(answers.license)}
 
-        ## Description
-        ${answers.description}
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contribution)
 
-        ## Installation
-        ${answers.installation}
+## Description
+${answers.description}
 
-        ## Usage
-        ${answers.usage}
+## Installation
+${answers.installation}
 
-        ## License
-       -  ${answers.license}
+## Usage
+To use the ${answers.title} you will follow these instructions; ${answers.usage}
 
-        ## Contribution
-        ${answers.contribution}
+## License
+${answers.license}
 
-        ## Questions?
-        ${answers.username}
-    `
+## Contribution
+${answers.contribution}
+
+## Questions?
+If you have questions regarding this README, please reach out to me via GitHub or by email.
+"https://github.com/${answers.username}"
+Email: ${answers.email}
+`
 }
 function createFile(){
 
