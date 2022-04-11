@@ -54,7 +54,7 @@ function prompt(){
 function renderLicenseBadge(license){
     const badges = {
      MIT: '![License: MIT](https://img.sheild.io/badge/License-MIT-red.svg)',
-     GPL: '![License: MIT](https://img.shields.io/badge/License-GPLv3-blue.svg)',
+     GPL: '![License: GPL](https://img.shields.io/badge/License-GPLv3-blue.svg)',
      APACHE: '![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
         }
         return badges[license]
