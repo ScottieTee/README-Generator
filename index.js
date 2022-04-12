@@ -53,7 +53,7 @@ function prompt(){
 
 function renderLicenseBadge(license){
     const badges = {
-     MIT: '![License: MIT](https://img.sheild.io/badge/License-MIT-red.svg)',
+     MIT: '![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)',
      GPL: '![License: GPL](https://img.shields.io/badge/License-GPLv3-blue.svg)',
      APACHE: '![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
         }
@@ -63,7 +63,8 @@ function generateReadMe(answers){
     return `
 # ${answers.title}
 
-${this.renderLicenseBadge(answers.license)}
+![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
+![badge](https://img.shields.io/github/languages/count/${answers.username}/${answers.title})
 
 ## Table of Contents
 - [Description](#description)

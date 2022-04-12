@@ -1,6 +1,8 @@
 
-# title
+# f
 
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+![badge](https://img.shields.io/github/languages/count/scottietee/Find-A-Pet)
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -9,20 +11,21 @@
 - [Contribution](#contribution)
 
 ## Description
-yes
+f
 
 ## Installation
 f
 
 ## Usage
-f
+To use the f you will follow these instructions; f
 
 ## License
 MIT
 
 ## Contribution
-me
+f
 
 ## Questions?
-"https://github.com/scottietee"
-Email Me : sscotthompson@gmail.com
+If you have questions regarding this README, please reach out to me via GitHub or by email.
+"https://github.com/f"
+Email: 
