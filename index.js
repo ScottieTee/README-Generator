@@ -64,7 +64,6 @@ function generateReadMe(answers){
 # ${answers.title}
 
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
-![badge](https://img.shields.io/github/languages/count/${answers.username}/${answers.title})
 
 ## Table of Contents
 - [Description](#description)
@@ -100,6 +99,3 @@ function createFile(){
 prompt();
 
 
-//CREATE A FUNCTION THAT LINKS THE USERNAME TO THE GITHUB IN THE README
-//IN THE QUESTION SECTION I HAVE TO GIVE INFO ON HOW TO FURTHER REACH ME
-//

@@ -1,8 +1,8 @@
 
-# f
+# Example README
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
-![badge](https://img.shields.io/github/languages/count/scottietee/Find-A-Pet)
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -11,21 +11,21 @@
 - [Contribution](#contribution)
 
 ## Description
-f
+I designed a README generator utilizing the lessons learned in Module 9 to generate a readme after answering a few prompts in the terminal.
 
 ## Installation
-f
+I uploaded the starter code, used node and the inquirer package, then I created functions within the index.js file to ask questions, insert badges, and produce a readme file.
 
 ## Usage
-To use the f you will follow these instructions; f
+To use the Example README you will follow these instructions; homework
 
 ## License
 MIT
 
 ## Contribution
-f
+Myself
 
 ## Questions?
 If you have questions regarding this README, please reach out to me via GitHub or by email.
-"https://github.com/f"
-Email: 
+"https://github.com/scottietee"
+Email: sscotthompson@gmail.com
